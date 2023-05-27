@@ -1,0 +1,43 @@
+
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 0px;
+}
+
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.8rem;
+    column-gap: 0.5rem;
+}
+.logo i {
+    font-size: 1.8rem;
+    transform: rotate(-15deg);
+    color: white;
+    background: var(--light-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo_text{
+    font-size: 1.8rem;
+    color: var(--heading-color);
+
+
+
+}
+.btn_holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile_menu{
+    font-size: 2rem;
+   
+}

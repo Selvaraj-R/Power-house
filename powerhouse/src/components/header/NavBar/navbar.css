@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+.nav_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px 20px; */
+  color: black;
+  font-size: 1.2rem;
+
+}
+.nav_item a {
+    color: var(--heading-color);
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav_item a:hover{
+    color: var(--primary-color);
+
+}
